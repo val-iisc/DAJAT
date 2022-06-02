@@ -67,7 +67,7 @@ elif args.data == 'CIFAR100':
     test_size = 10000
 
 ##################################### Load std trained model #############################
-model_std = nn.DataParallel(getattr(models, args.arch)(num_classes=NUM_CLASSES)).to(device)
+model_std = nn.DataParallel(getattr(models, args.arch)(num_classes=NUM_CLASSES)).cuda()
 model_std.cuda()
 if args.use_BB_attack:
     model_std = nn.DataParallel(model_std)
@@ -75,7 +75,7 @@ if args.use_BB_attack:
     model_std.load_state_dict(model_dict)            
 
 ##################################### Load adv trained model #############################
-model = nn.DataParallel(getattr(models, args.arch)(num_classes=NUM_CLASSES)).to(device)
+model = nn.DataParallel(getattr(models, args.arch)(num_classes=NUM_CLASSES)).cuda()
 model_dict = torch.load(args.trained_model)  
 model.load_state_dict(model_dict)
 
