@@ -24,3 +24,15 @@ Further all the running details are provided in run.sh. It is recommended to use
 
 Results obtained using higher number of attack steps and 200 epochs for training:
 ![plot](./DAJAT_200.png)
+# Citing this work
+```
+@inproceedings{
+addepalli2022efficient,
+title={Efficient and Effective Augmentation Strategy for Adversarial Training},
+author={Sravanti Addepalli and Samyak Jain and Venkatesh Babu Radhakrishnan},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=ODkBI1d3phW}
+}
+```
