@@ -1,5 +1,5 @@
 # Efficient and Effective Augmentation Strategy for Adversarial Training
-This repository contains codes for the training and evaluation of our CVPR 2022 Workshop paper [Efficient and Effective Strategy for Adversarial Training](https://artofrobust.github.io/short_paper/31.pdf).
+This repository contains codes for the training and evaluation of our NeurIPS-22 paper  [Efficient and Effective Strategy for Adversarial Training](https://arxiv.org/abs/2210.15318).
 
 # Training
 For training DAJAT: 
