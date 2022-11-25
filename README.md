@@ -1,5 +1,6 @@
 # Efficient and Effective Augmentation Strategy for Adversarial Training
 This repository contains codes for the training and evaluation of our NeurIPS-22 paper  [Efficient and Effective Strategy for Adversarial Training](https://arxiv.org/abs/2210.15318). The openreview link for the paper is also  [available](https://openreview.net/forum?id=ODkBI1d3phW).
+
 ![plot](./DAJAT_fig.png)
  # Environment Settings 
 * Python 3.6.9
