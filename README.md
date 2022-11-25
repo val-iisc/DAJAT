@@ -1,6 +1,13 @@
 # Efficient and Effective Augmentation Strategy for Adversarial Training
 This repository contains codes for the training and evaluation of our NeurIPS-22 paper  [Efficient and Effective Strategy for Adversarial Training](https://arxiv.org/abs/2210.15318). The openreview link for the paper is also  [available](https://openreview.net/forum?id=ODkBI1d3phW).
 ![plot](./DAJAT_fig.png)
+ # Environment Settings 
+* Python 3.6.9
+* PyTorch 1.8
+* Torchvision 0.8.0
+* Numpy 1.19.2
+
+The checkpoints can be found at [Google Drive]()
 # Training
 For training DAJAT: 
 ```
@@ -23,7 +30,10 @@ Further all the running details are provided in run.sh. It is recommended to use
 ![plot](./DAJAT_C100.png)
 
 Results obtained using higher number of attack steps and 200 epochs for training:
-![plot](./DAJAT_200.png)
+<p float="left">
+  <img src="/DAJAT_200.png" width="750" />
+</p>
+
 # Citing this work
 ```
 @inproceedings{
