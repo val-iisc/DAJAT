@@ -31,7 +31,7 @@ Further all the running details are provided in run.sh. It is recommended to use
 
 Results obtained using higher number of attack steps and 200 epochs for training:
 <p float="left">
-  <img src="/DAJAT_200.png" width="750" />
+  <img src="/DAJAT_200.png" width="600" />
 </p>
 
 # Citing this work
